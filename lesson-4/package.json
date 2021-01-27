@@ -1,23 +1,24 @@
 {
-  "name": "monsters-rolodex",
+  "name": "crwn-clothing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhangmyihua.github.io/monsters-rolodex-complete/",
   "dependencies": {
-    "gh-pages": "2.0.1",
+    "node-sass": "4.12.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "5.0.0"
   },
   "devDependencies": {
-    "react-scripts": "^3.4.4"
+    "react-scripts": "3.0.0"
+  },
+  "resolutions": {
+    "babel-jest": "24.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
