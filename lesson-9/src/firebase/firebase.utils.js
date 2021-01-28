@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyA3HZG5yzmSbBbgH3Om7ib3VR6NrPcYVLQ",
+  authDomain: "the-burger-bulilder-2020.firebaseapp.com",
+  databaseURL: "https://the-burger-bulilder-2020-default-rtdb.firebaseio.com",
+  projectId: "the-burger-bulilder-2020",
+  storageBucket: "the-burger-bulilder-2020.appspot.com",
+  messagingSenderId: "997408078578",
+  appId: "1:997408078578:web:40acee1ac59eedeaf92e6b",
+  measurementId: "G-4Y354TY9HE"
 };
 
 firebase.initializeApp(config);
