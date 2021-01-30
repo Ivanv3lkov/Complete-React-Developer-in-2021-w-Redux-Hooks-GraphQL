@@ -5,8 +5,8 @@
   "homepage": "https://zhangmyihua.github.io/monsters-rolodex-complete/",
   "dependencies": {
     "gh-pages": "2.0.1",
-    "react": "~16.8.6",
-    "react-dom": "~16.8.6"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "react-scripts": "^3.4.4"
