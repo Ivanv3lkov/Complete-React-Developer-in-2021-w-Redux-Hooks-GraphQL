@@ -1,6 +1,5 @@
 ## Lesson-25
-
-We have removed the redux-logger middleware from our production build.
+We have removed the redux-logger middleware from our production build!!! :)
 
 # How to fork and clone
 
