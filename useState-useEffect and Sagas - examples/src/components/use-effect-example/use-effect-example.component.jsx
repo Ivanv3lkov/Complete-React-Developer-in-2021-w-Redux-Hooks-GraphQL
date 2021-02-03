@@ -8,9 +8,7 @@ const UseEffectExample = () => {
 
   useEffect(() => {
     const fetchFunc = async () => {
-      const response = await fetch(
-        `https://jsonplaceholder.typicode.com/users?username=${searchQuery}`
-      );
+      const response = await fetch(`https://jsonplaceholder.typicode.com/users?username=${searchQuery}`);
       const resJson = await response.json();
       setUser(resJson[0]);
     };
