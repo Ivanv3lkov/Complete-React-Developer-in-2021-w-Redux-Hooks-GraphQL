@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+  apiKey: "AIzaSyDuOAfHeynS4CuJdOAQML45Bm0YZDKlP6o",
+  authDomain: "crwn-clothing-2d583.firebaseapp.com",
+  databaseURL: "https://crwn-clothing-2d583-default-rtdb.firebaseio.com",
+  projectId: "crwn-clothing-2d583",
+  storageBucket: "crwn-clothing-2d583.appspot.com",
+  messagingSenderId: "436350512674",
+  appId: "1:436350512674:web:3e5cca89b54f44192b247b",
+  measurementId: "G-4QV1KF3ML1"
 };
 
 firebase.initializeApp(config);
@@ -39,10 +40,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
-export const addCollectionAndDocuments = async (
-  collectionKey,
-  objectsToAdd
-) => {
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
   const collectionRef = firestore.collection(collectionKey);
 
   const batch = firestore.batch();
